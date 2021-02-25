@@ -1,0 +1,1332 @@
+/*.border{*/
+/*border:1px solid red;*/
+/*}*/
+
+body{
+    background:#E4E4E4 ;
+}
+.col-md-12{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+/******* heder********/
+
+
+.navbar{
+
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+a{
+    color:darkslategrey ;
+}
+
+.navbar li a:hover{
+    color:#5c82e3 ;
+    background:#DBDBDB;
+
+}
+.navbar li a :active{
+    color:#FF7809 ;
+}
+
+.navbar{
+    background:#DBDBDB;
+    -webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0 3px 10px rgba(0,0,0,0.7);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.7);
+
+}
+.navbar-header .logo {
+    font-size: 26px;
+    color:darkslategrey  ;
+
+}
+.navbar-header a i{
+    color:#FF7809 ;
+}
+
+.navbar-header a:hover{
+    color: #5c82e3;
+    text-decoration: none;
+}
+
+.navbar-header a:active{
+    color:#FF7809 ;
+}
+
+.navbar-inverse{
+    background:#DBDBDB ;
+}
+/***Размер и цвет шрифта в хедере в меню***/
+
+.nav li a{
+    font-size: 18px;
+}
+.nav li a:hover{
+
+    font-size: 18px;
+    color: #5c82e3;
+}
+.nav li a:active{
+    background:#FCFCEE;
+    font-size: 18px;
+    color: #FF7809; ;
+}
+.nav li a:visited{
+    background:#DBDBDB;
+}
+
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em;
+    padding: 0;
+}
+button.navbar-toggle{
+    background: dimgrey;
+}
+/* /header */
+
+/******Маяк******/
+
+#mayks{
+    margin-top: 60px;
+    font-size: 16px;
+
+}
+#mayks li{
+    list-style-type: none;
+}
+ul.mayk {
+
+    padding:5px 0 5px 15px;
+}
+.info h4{
+    color:darkslategrey;
+    padding:0 0 0 15px ;
+}
+/****************/
+
+
+/**********Main**********/
+
+
+
+.form-control{
+    width: 200px;
+    outline: 0 !important;
+}
+.form-control:active{
+    outline: 0 !important;
+}
+.search2{
+    display: flex;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+    margin: 0;
+
+}
+.search3{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.search3 .btn{
+    background:forestgreen;
+    margin: 10px;
+    outline: 0 !important;
+}
+.search3 .btn:active{
+    background:#226822;
+    outline: 0 !important;
+}
+.btn{
+    text-align: center;
+    width: 100px;
+
+}
+
+.search_info{
+    padding: 10px 20px 0 15px;
+    border: 1px solid darkgray;
+    background:#F5F5F5;
+    border-radius: 5px;
+}
+
+/***********************************************************/
+
+
+/*******************page*****************************************/
+
+.page_info{
+    padding:15px 30px 1px;
+
+
+
+}
+.page{
+
+    display: flex;
+    justify-content: flex-end;
+}
+/*********************************************************************/
+
+/**************************Content*********************************************/
+
+.anketas{
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 15px 0 15px;
+}
+
+
+/***********************/
+/*********Anketa*********/
+/*********************/
+/* .list {
+    -webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0 3px 10px rgba(0,0,0,0.8);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.8);
+    border-top: 6px solid green;
+    border-radius: 10px;
+    background:#FAFAFA ;
+    width: 250px;
+    height: auto;
+    overflow: auto;
+    margin-bottom: 25px;
+
+}
+.list.figure{
+    background-size: cover;
+    position: relative;
+
+} */
+
+.pris{
+    position: absolute;
+    padding: 5px 0 0 20px;
+    font-size: 22px;
+    width: 250px;
+    height: 40px;
+    margin-top: 250px;
+    color: white;
+    background: grey;
+    opacity: 0.5;
+}
+/* .list img {
+    background-size: cover;
+    width: 250px;
+    height: 290px;
+}
+
+
+.list .name-panel h5{
+    display: flex;
+    font-size: 20px;
+    margin: 3px 0 3px 10px;
+    padding: 5px 0 5px 5px;
+    color: green;
+    border-bottom: 2px dashed #D4D4D4;
+    width: 230px;
+
+} */
+.geo{
+
+    padding: 5px 15px 15px 15px;
+}
+
+/*******************sidbar************************************************/
+/*sideba*/
+
+.sidbar{
+    background: #F5F5F5;
+
+    padding: 10px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}
+
+.cursy{
+    background: #FDFDF8;
+    padding: 15px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+.sidbar li{
+
+    list-style-type: circle;
+    color: blue;
+
+}
+.sidbar a:hover{
+    color:blue ;
+}
+
+.expendable{
+    background: #FDFDF8;
+    padding: 15px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+
+.cosmo{
+    background: #FDFDF8;
+    padding: 15px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+
+
+/*/sideba*/
+
+
+
+/**************************************************************/
+/*********************Medio**************************************/
+@media (max-width: 426px) {
+    .form-control{
+        width: 100%;
+    }
+    .search2{
+        display: none;
+    }
+}
+@media (max-width: 769px) {
+    .search2 {
+        display: none;
+    }
+    .search_info{
+        margin-bottom: 10px;
+    }
+
+}
+
+
+
+
+
+/********************************/
+/*************Медио для анкет в МВ*******************/
+@media(max-width: 769px) {
+    /* .list {
+        -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
+        -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
+
+        border-top: 6px solid green;
+        border-radius: 10px;
+        background: #FAFAFA;
+        width: 310px;
+        height: auto;
+        overflow: auto;
+
+
+    }
+
+    .list.figure {
+        background-size: cover;
+        position: relative;
+
+    }
+
+    .list {
+        height: 445px;
+    }
+
+    .list .pris {
+        position: absolute;
+
+        font-size: 22px;
+        width: 310px;
+        height: 40px;
+        margin-top: 280px;
+
+        color: white;
+        background: grey;
+        opacity: 0.5;
+    }
+
+    .list img {
+        background-size: cover;
+        width: 310px;
+        height: 320px;
+    }
+
+    .list .name-panel a {
+        text-decoration: green;
+        float: left;
+
+    }
+
+    .list .name-panel h5 {
+        display: flex;
+        font-size: 20px;
+        margin: 3px 0 3px 10px;
+        padding: 0 0 0px 0;
+        color: green;
+        border-bottom: 2px dashed #D4D4D4;
+        width: 300px;
+    }
+
+    .list .geo h6 {
+        margin: 0;
+        padding: 0 0 3px 10px;
+        font-size: 14px;
+        color: black;
+    }
+
+    .list li {
+        list-style: square;
+    } */
+
+    /* .list li:hover {
+        font-size: 14px;
+        color: #5c82e3;
+    } */
+    .sidbar{
+        margin-top:25px;
+    }
+
+
+
+}
+
+
+
+@media (max-width: 320px) {
+    /* .list {
+        width: 280px;
+    }
+
+    .list .pris {
+        position: absolute;
+        padding: 5px 0 0 20px;
+        font-size: 22px;
+        width: 280px;
+        height: 40px;
+        margin-top: 280px;
+
+        color: white;
+        background: grey;
+        opacity: 0.5;
+    }
+
+    .list img {
+        background-size: cover;
+        width: 280px;
+        height: 320px;
+    }
+
+    .list .name-panel h5 {
+        display: flex;
+        font-size: 20px;
+        margin: 3px 0 3px 10px;
+        padding: 0 0 0px 0;
+        color: green;
+        border-bottom: 2px dashed #D4D4D4;
+        width: 250px;
+
+    } */
+
+    .anketas {
+
+        padding: 0;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .footer_nav {
+        width: 100%;
+    }
+}
+/******************pagination**************************/
+.stranizy {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px 0 0;
+}
+
+.stranizy ul a {
+    color: darkslategrey;
+    background: #F5F5F5;
+}
+
+.stranizy ul a:hover {
+    background: lightgrey;
+}
+
+/********************************************************/
+/***********************/
+/*********Footer*********/
+/*********************/
+footer {
+    background: #30373D;
+    /* margin-top: 20px; */
+    padding: 0;
+}
+
+.footer {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.footer_nav {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer_nav p {
+    font-size: 1.45vw;
+    color: lightgray;
+    padding: 5px 0 0 5px;
+    font-family: Verdana, sans-serif;
+
+}
+
+.footer_nav ul {
+    padding: 0;
+
+}
+
+.footer_nav li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.14vw;
+    line-height: 1.85em;
+    padding: 5px 0 0 5px;
+
+}
+
+.footer_nav a {
+    color: darkgray;
+
+}
+
+.footer_nav a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_nav a:active {
+    text-decoration: none;
+    color: gray;
+}
+
+/***********new****************/
+.footer_new {
+    margin: 0;
+    width: 310px;
+    padding: 0;
+}
+
+.footer_new p {
+    font-size: 20px;
+    color: lightgray;
+    padding: 5px 0 0 5px;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
+
+.new {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+/*.new_img{*/
+/*width: 60px;*/
+/*height: 60px;*/
+/*border-radius: 10px;*/
+/*border: 2px solid silver;*/
+/*}*/
+.new_bec img {
+    width: 2.6vw;
+    height: 2.6vw;
+    border-radius: 10px;
+    margin: 15px;
+    border: 2px solid silver;
+}
+
+.footer_cc {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer_cc p {
+    font-size: 1.45vw;
+    color: lightgray;
+    padding: 5px 0 0 5px;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
+
+/***************************/
+.copyright {
+    background: #262626;
+    padding: 15px;
+    color: gray;
+    text-align: center;
+    font-size: 14px;
+}
+
+/*************соцсеть***********************************************/
+.cc li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
+
+
+/************************V_anketa*********************************************/
+
+
+/**************************V_anketa_mayk*********************************************************/
+
+.mayk_anketa{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+ul.mayk_anketa{
+    padding: 10px 0 10px 15px;
+}
+
+/**************************OPEN V_anketa_mayk*********************************************************/
+
+
+/************************Main_V_anketa*********************************************/
+.v_anketa{
+
+    padding: 15px 0 ;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background: #F5F5F5;
+
+}
+
+.info_anketa h3{
+    color:darkslategrey ;
+    padding: 5px 0 5px 20px;
+    margin: 0;
+    border-bottom:2px dotted gray;
+}
+.address{
+    padding:0 ;
+    border: 1px solid silver;
+
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+.address p{
+    font-size: 15px;
+    color: #5e5e5e;
+    padding-left: 20px;
+    border-bottom:2px dotted grey;
+    margin: 0;
+}
+.address i{
+    color: darkblue ;
+    font-size: 17px;
+}
+
+.address b{
+    color: #c7254e;
+}
+
+.photo_anketa img{
+    width: 280px ;
+    border: 1px solid slategrey;
+    border-radius: 10px;
+    margin: 4px;
+}
+.photo_anketa{
+    width: 290px ;
+    border: 1px solid slategrey;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background:whitesmoke ;
+
+
+}
+.about_my{
+    padding:10px;
+    border: 1px solid silver;
+
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.pris_anketa{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+.pris_anketa{
+    padding:0 ;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.chas{
+
+    width: 250px;
+    font-size: 16px;
+
+}
+.chas li{
+    padding-top: 15px;
+    list-style-type: circle;
+    color: #2b669a;
+
+}
+.dva{
+
+    width: 250px;
+    font-size:16px ;
+}
+
+.dva li{
+    padding-top: 15px;
+    list-style-type: circle;
+    color: #2b669a;
+
+}
+/*@media (max-width: 425px) {*/
+/*.photo_anketa{*/
+/*margin: auto;*/
+/*}*/
+/*}*/
+
+@media (max-width: 768px) {
+    .photos_fnketa{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+/******************************************************************************/
+/***********************add_Anketa_date**********************************************/
+.blank{
+    background:#F5F5F5;
+    padding: 0;
+    margin: auto;
+    border-radius: 10px;
+
+}
+.zagolovok{
+    background:forestgreen;
+    margin: 0 ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.zagolovok h3{
+    margin: 0;
+    padding: 10px 10px;
+    color: white;
+
+}
+.moder{
+    background: #9d9d9d;
+    margin-left: 30px;
+}
+.pravila_add_anketa{
+    background:#D8E7F5;
+    margin:10px ;
+
+    padding: 5px 10px;
+}
+.pravila_add_anketa a{
+    color: #b92c28;
+}
+
+.add_anketa_type{
+    border-bottom: 1px dashed silver;
+    width: 100%;
+    padding:10px ;
+}
+.add_anketa_name{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed silver;
+    padding-bottom: 10px;
+}
+.add_anketa_name p{
+    margin: 10px 0 3px;
+
+
+}
+
+.add_anketa_city{
+    border-bottom: 1px dashed silver;
+    padding: 5px 0 15px 10px;
+    margin-right: 10px;
+}
+
+.add_anketa_metro{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed silver;
+    padding-bottom: 10px;
+}
+/*******************Обо мне******************************/
+.about_my1{
+    padding: 10px;
+}
+
+.about_my1 p{
+    margin: 0;
+}
+.about_my2 textarea{
+    width: 90%;
+    min-height: 80px;
+    border-radius: 7px;
+    border: 1px solid gray;
+}
+/***********************образование**********************************/
+.add_anketa_education{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed silver;
+    padding-bottom: 10px;
+}
+/***********************Выбор цены****************************/
+.add_anketa_pris{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed silver;
+    padding: 10px 0 10px ;
+}
+.add_anketa_pris b{
+    margin: 20px;
+    display: block;
+}
+/****************Выбор услуг***************************/
+.choose_service {
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    color:#405B5B;
+    margin-bottom: 20px;
+
+}
+.choose i{
+    color:#405B5B;
+}
+/*****************кнопка разместить****************************************/
+.razmestit{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: 20px 0 20px ;
+
+}
+.razmestit_s input{
+    height: 40px;
+    width: 200px;
+    background:forestgreen ;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+    outline: 0 !important;
+    margin: 10px;
+}
+.razmestit_s input:active{
+    background:#226822;
+    outline: 0 !important;
+}
+
+
+
+
+
+
+
+/******************** Медиа Для add anketa**********************************/
+@media (max-width: 768px) {
+    .moder{
+        margin-left: 0;
+    }
+}
+@media (max-width: 425px) {
+    .photo_anketa{
+        margin: auto;
+    }
+
+    #profil_name.form-control{
+        width:270px;
+    }
+    #profil_age.form-control{
+        width:270px;
+    }
+    #profil_tel.form-control{
+        width:270px;
+    }
+
+    #metro.form-control{
+        width: 270px;
+    }
+    #metro2.form-control{
+        width: 270px;
+    }
+    #metro3.form-control{
+        width: 270px;
+    }
+    .add_anketa_education .form-control{
+        width: 270px;
+    }
+
+}
+
+
+/***********************************************/
+/************Moder*******************************/
+.moder {
+    margin: 0;
+}
+
+
+/************************************************/
+/********************Log(Логин php)***************************/
+
+h5{
+    color: blue;
+}
+
+/**********************кнопка редактирования*************************/
+.redaction {
+   width: 120px;
+    margin: auto;
+    background-color: #9acfea;
+
+
+}
+
+.main_photo {
+    width: 100vw;
+    height: 100%;
+    z-index: -20;
+
+}
+.login_container {
+    width: 31.25vw;
+}
+.log_form {
+    padding: 25px !important;
+}
+.log_input {
+    margin-top: 0.78vw !important;
+}
+.log_but {
+    font-size: 1.354vw !important;
+}
+/********************************************************************************************************/
+body {
+    font-family: "Roboto", sans-serif;
+    max-width: 1920px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+#ul li {
+    list-style-type: none;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 56.25vw;
+}
+.container__entry {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__entry-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#container__entry-label {
+    font-size: 1.25vw;
+}
+
+#container__entry-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#header {
+    height: 100px;
+    background-color: #fafaf2;
+}
+
+#container {
+    width: 100%;
+    padding: 0px 50px;
+}
+
+.container {
+    padding: 0;
+}
+
+.container__header {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+#header__logo {
+    font-size: 1.45vw;
+}
+
+.header__nav-item {
+    margin-left: 50px;
+    font-size: 1.45vw;
+}
+
+#header__item-auth {
+    margin-left: 20px;
+    font-size: 1.15vw;
+}
+
+#search {
+    max-width: 600px;
+    margin: 40px auto;
+    margin-top: 30px;
+}
+
+.card__image {
+    width: 290px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#cards__list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#cards__list-item {
+    margin: 20px 30px;
+}
+
+#cards__list-item-edit {
+    margin: 20px 30px;
+    height: 325px;
+    position: relative;
+}
+
+#button__edit {
+    position: absolute;
+    width: 262px;
+    bottom: 0;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#header__h1 {
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+#container__add-anket {
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+#container__anket {
+    max-width: 700px;
+    margin: 50px auto;
+}
+
+#anketa__image {
+    margin: 0 auto;
+}
+
+#add__anket-label {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#footer__anketas {
+    display: flex;
+    /* justify-content: space-between; */
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    width: 100%;
+}
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1920px;
+    padding: 25px 50px;
+}
+
+#footer__last-anketas {
+    width: 480px;
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+.container {
+    min-height: 310px;
+}
+
+.footer__icon {
+    width: 2.6vw;
+    height: 2.6vw;
+}
+
+#buttons__anketa {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+#delete__button {
+    margin-left: 15px;
+}
+
+#button__check {
+    width: 120px;
+    height: 28px;
+    padding: 3px;
+}
+
+#button_ckeck-wrapper {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#min__date {
+    margin-top: 15px;
+}
+
+#button__end {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#fake__anketa {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: red;
+}
+
+#cards__list-item-link {
+    margin: 20px 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+#cards__list-item-image {
+    background-color: rgba(73, 73, 73, 0.1);
+    opacity: 0.3;
+}
+
+#message__err {
+    position: absolute;
+    z-index: 999;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+#cards__list-content {
+    opacity: 0.3;
+}
+.welcome_c {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -10;
+}
+.welcome_t {
+    display: flex;
+    padding: 50px;
+    background-color:white;
+    font-size: 3.125vw;
+    z-index: 10;
+}
+.forget {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+@media(max-width: 1080px) {
+    #header__logo {
+        font-size: 24px;
+    }
+    .container__header {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #header__item-auth {
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 14px;
+        width: 120px;
+    }
+    .header__nav {
+        display: flex;
+        justify-content:space-between;
+    }
+    .header__nav-item {
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 16px;
+        width: 120px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .main {
+        min-height: 100vh;
+    }
+    .main_photo {
+        width: 100%;
+        object-fit:cover;
+        height: calc(100vh - 310px);
+        z-index: -20;
+    }
+    .welcome_t {
+        display: flex;
+        padding: 10px;
+        background-color: white;
+        font-size: 16px;
+        z-index: 10;
+    }
+    #footer {
+        padding: 0px;
+        flex-direction: column;
+    }
+    .footer_nav p {
+        font-size: 16px;
+        padding: 0px;
+        padding-top: 15px;
+    }
+    .footer_nav li {
+        font-size: 14px;
+        text-align: center;
+        padding: 0;
+    }
+    .footer_cc p {
+        font-size: 16px;
+        padding: 0px;
+    }
+    .footer__icon {
+        width: 8vw;
+        height: 8vw;
+    }
+    .cc {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0px;
+    }
+    .login_container {
+        width: 90vw;
+    }
+    #container__entry-label {
+        font-size: 16px;
+    }
+    #header__h1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .container__entry-header {
+        margin-bottom: 0;
+    }
+    #container {
+        padding: 0px;
+    }
+    #search {
+        width: 90vw;
+    }
+    #container__add-anket {
+        margin: 15px 15px;
+    }
+    #container__anket {
+        width: 90vw;
+    }
+    .container__entry-header {
+        text-align: center;
+    }
+    #buttons__anketa {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
